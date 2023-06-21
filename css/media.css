@@ -1,0 +1,585 @@
+@media screen and (min-width:428px) and (max-width:767px) {
+
+.header-first > .container{
+max-width: 428px;
+ }
+
+
+
+
+.hero-header{
+/* width: 320px; */
+font-weight: 700;
+font-size: 36px;
+line-height: 1.11;
+text-align: center;
+letter-spacing: 0.02em;
+
+}
+
+.advantages > .container{
+max-width: 428px;
+}
+
+.advantages-box{
+display: none;
+}
+
+.advantages-text {
+margin-bottom: 72px;
+}
+
+.advantages-title{
+text-align: center;
+}
+
+li:last-child .advantages-text{
+margin-bottom: 0px;
+}
+
+.team > .container{
+max-width: 294px;
+}
+
+/* Customers */
+
+
+.customer > .container{
+    max-width: 428px;
+    }
+
+
+/* footer */
+
+.footer > .container{
+max-width: 428px;
+}
+
+.mobile-tel-link{
+font-size: 36px; 
+   
+}
+
+
+}
+
+/*_____________ @media screen 768px_______________ */
+
+@media screen and (min-width:768px) and (max-width:1157px) {
+
+.header-first > .container{
+ max-width: 768px;
+ }
+
+ .header-logo{
+    margin-right: 120px;
+    }  
+
+
+.head-btn{
+display: none;
+}
+
+.head-list{
+display: flex;
+align-items: center;
+gap: 40px;
+}
+
+.head-address{
+font-style: normal;
+display: flex;
+flex-wrap: wrap;
+/* display: block; */
+margin-left: auto;
+}
+
+.address-list{
+    display: block;
+    padding-top: 16px;
+    padding-bottom: 16px;
+    
+}
+
+.address-item:first-child{
+margin-bottom: 12px ;
+}
+
+.address-link{
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 1.17;
+    letter-spacing: 0.04em;
+   
+    padding-top: 0px;
+    padding-bottom: 0px;
+
+    
+    transition-property: color;
+    transition-duration: 250ms;
+    transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+    }
+
+.head-link {
+font-weight: 500;
+font-size: 16px;
+line-height: 1.5;
+letter-spacing: 0.02em;
+color: var(--color-name);
+text-decoration: none;
+display: block;
+padding-top: 24px;
+padding-bottom: 24px;
+position: relative;
+    
+transition-property: color;
+transition-duration: 250ms;
+transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+    }
+
+
+
+.hero{
+background-image: linear-gradient(rgba(46, 47, 66, 0.7) , rgba(46, 47, 66, 0.7)) , url(../images/hero-bg-tab.jpg);
+background-repeat: no-repeat;
+background-position: center;
+background-size: cover;
+}
+
+@media (min-device-pixel-ratio: 2),
+  (min-resolution: 192dpi),
+  (min-resolution: 2dppx) {
+  .hero {
+    background-image: linear-gradient(rgba(46, 47, 66, 0.7) , rgba(46, 47, 66, 0.7)) , url(../images/hero-bg-tab-2x.jpg);
+  }
+}
+
+.hero-header{
+/* font-weight: 700; */
+font-size: 56px;
+line-height: 1.07;
+/* text-align: center;
+letter-spacing: 0.02em; */
+
+width: 496px;
+height: 120px;
+}
+
+.hero-btn{
+    margin-top: 36px;
+}
+
+.advantages > .container{
+    max-width: 768px;
+    }
+
+.advantages-list{
+    display: flex;
+    flex-wrap: wrap;
+    gap: 24px;
+}
+
+.advantages-item{
+width: 356px;
+}
+
+.advantages-title{
+text-align: left;
+    }
+
+.advantages-text{
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 1.5;
+    letter-spacing: 0.02em;
+
+    margin-bottom: 0;
+}
+
+li:nth-child(1) .advantages-text{
+   padding-bottom: 48px;
+    }
+    li:nth-child(2) .advantages-text{
+        padding-bottom: 48px;
+         }
+
+   .team > .container{
+  max-width: 584px;
+   }
+
+.team-list{
+gap: 64px 24px;
+}
+
+
+
+/* Customer */
+
+.customer > .container{
+max-width: 584px ;
+}
+
+.customer-item{
+width: 168px;
+}
+
+.customer-list{
+    column-gap: 24px
+}
+
+
+/* ________________footer______________ */
+
+.footer > .container{
+    max-width: 584px ;
+    }
+
+.footer-upper{
+display: flex;
+}
+
+.footer-soc-text{
+margin-top: 0;
+}
+
+.footer-logo-block{
+display: block;
+margin-left: 0;
+margin-right: 24px;
+}
+
+.subscription-input{
+width: 264px;
+}
+
+.subscription-text{
+text-align: left;
+}
+
+.subscription-form{
+display: flex;
+}
+
+.subscription-submit{
+margin: 0 ;
+}
+
+
+.mobile-menu{
+display: none;
+}
+
+.modal{
+    max-width: 408px;
+    }
+
+ }
+
+@media screen and (min-width:1158px) {
+
+.container{
+width: 1158px;
+padding-left: 15px;
+padding-right: 15px;
+margin: 0 auto;
+}
+
+
+.head-btn{
+display: none;
+}
+
+.mobile-menu{
+display: none;
+}
+
+.head-list{
+display: flex;
+align-items: center;
+gap: 40px;
+    }
+
+.head-address{
+font-style: normal;
+display: flex;
+margin-left: auto;
+}
+    
+.hero{
+background-image: linear-gradient(rgba(46, 47, 66, 0.7) , rgba(46, 47, 66, 0.7)) , url(../images/people-office.jpg);
+background-repeat: no-repeat;
+background-position: center;
+background-size: cover;
+max-width: 1440px;
+padding-top: 188px;
+padding-bottom: 188px;
+
+}
+
+
+.hero-header{
+    font-weight: 700;
+    font-size: 56px;
+    line-height: 1.07;
+    
+    width: 496px;
+    height: 120px;
+}
+
+.hero-btn{
+margin-top: 48px;
+}
+
+.team-list{   
+gap: 24px;
+}
+
+.team{
+padding-top: 120px;
+padding-bottom: 120px;
+}
+
+.customer{
+padding-top: 120px;
+padding-bottom: 120px;
+}
+
+.customer-list {
+display: flex;
+gap: 24px;
+flex-wrap: nowrap;
+}
+
+.advantages{
+padding-top: 120px;
+padding-bottom: 120px;
+}
+
+.advantages-list{
+display: flex;
+gap: 24px;
+}
+
+.advantages-text{
+margin-bottom: 0px;
+}
+
+.advantages-box{
+display: flex;
+}
+
+.advantages-title{
+font-weight: 500;
+font-size: 20px;
+line-height: 1.2;
+letter-spacing: 0.02em;
+
+min-width: 264px;
+
+}
+
+.footer{
+padding-top: 100px;
+padding-bottom: 100px ;
+}
+
+.footer-container{
+display: flex;
+align-items: baseline;
+}
+
+.footer-logo-block{
+margin-right: 120px;
+display: block;
+width: 264px;
+}
+
+.footer-upper{
+display: flex;
+}
+
+.subscription{
+margin-left: 80px; 
+}
+
+.subscription-text{
+margin-top: 0 ;
+text-align: start;
+}
+
+.subscription-form {
+display: flex;
+}
+
+.subscription-submit{
+margin-top: 0;
+} 
+
+.subscription-input{
+width: 264px;
+height: 40px;
+}
+
+.footer-soc-text {
+margin-top: 0px;
+text-align: start;
+}
+
+@media (min-device-pixel-ratio: 2),
+  (min-resolution: 192dpi),
+  (min-resolution: 2dppx) {
+  .hero {
+    background-image: linear-gradient(rgba(46, 47, 66, 0.7) , rgba(46, 47, 66, 0.7)) , url(../images/people-office-2x.jpg);
+  }
+}
+
+
+
+    .modal{
+        max-width: 408px;
+        }
+
+}
+
+/* -----------auxiliary media --------------*/
+
+@media screen and ( max-width: 1157px) {
+.mission{
+display: none;
+}
+
+}
+
+@media screen and ( max-width:767px) {
+    .head-btn{
+        border: none;
+        border-radius: none;
+        background-color: #FFFFFF;
+        
+        /* padding-top: 24px;
+        padding-bottom: 24px; */
+        margin-left: auto;
+        }
+
+        .team-soc-list{
+        
+        }
+
+    .customer-item{
+    width: calc((100% - 16px) / 2);
+    }
+
+
+/* _______head-mob______ */
+    .mobile-tel-link{
+        font-weight: 700;
+        font-size: 36px;
+        line-height: 1.11;
+        letter-spacing: 0.02em;
+        color: #4D5AE5;
+        
+        display: block;
+        margin-bottom: 40px; 
+        }
+    
+        .mobile-menu {
+            position: fixed;
+            width: 100vw;
+            height: 100vh;
+            display: flex;
+            flex-direction: column;
+            justify-content: space-between;
+            z-index: 3;
+            overflow: auto;
+            top:  0 ;
+            background-color: #FFFFFF;
+            
+            padding-top: 24px;
+            padding-right: 24px;
+            padding-bottom: 40px;
+            padding-left: 40px;
+            }
+            
+            .mobile-menu-btn {
+            background-color: #E7E9FC;;;
+            border: 1px solid #E7E9FC;
+            border-radius: 50%;
+            
+            align-items: center;
+            justify-content: center;
+            display: block;
+            margin-left: auto;
+            margin-bottom: 32px;
+             
+            }
+        
+            
+            .mobile-menu-item:not(:last-child) {
+            margin-bottom: 40px;
+            }
+            
+            .mobile-menu-link {
+            font-weight: 700;
+            font-size: 36px;
+            line-height: 1.11;
+            letter-spacing: 0.02em;
+            
+            color: #2E2F42;
+            }
+            
+            .mobile-menu-link:hover{
+            color: #404BBF;
+            }
+            
+            
+            .mobile-address {
+            font-style: normal;
+            }
+            
+            
+            
+            .mobile-address-link{
+                font-weight: 500;
+                font-size: 20px;
+                line-height: 1.2 ;
+                letter-spacing: 0.02em;
+                color: #434455; 
+                display: block;
+                margin-bottom: 48px;
+            }
+            
+            
+            .mobile-menu .team-soc-list{
+            justify-content: space-between;
+            }
+            
+            .menu-soc-block{
+            position: absolute;
+            bottom: 0 ;
+            padding-bottom: 40px;
+            }
+}
+
+@media screen and (max-width:427px) {
+    .mobile-tel-link{
+        font-weight: 700;
+        font-size: 8vw;
+        line-height: 1.11;
+        letter-spacing: 0.02em;
+        color: #4D5AE5;
+        
+        display: block;
+        margin-bottom: 40px;    
+        font-size: 8vw; 
+        }
+
+}
+
+    
+        
+/* _______head-mob______ */
+
+
+
+
+
