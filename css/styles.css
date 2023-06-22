@@ -421,10 +421,9 @@ margin-top: 16px;
     letter-spacing: 0.02em;
     color: var(--color-hero-header);
     text-align: center;
-    /* max-width: 496px; */
+   
     margin: 0 auto;
-    width: 320px;
-    height: 80px;
+
 
     
 }
@@ -523,6 +522,7 @@ letter-spacing: 0.02em;
 
 .advantages-text{
 font-size: 16px;
+font-weight: 500 ;
 line-height: 1.5;
 letter-spacing: 0.02em;
 color: var(--color-advantages-text);
