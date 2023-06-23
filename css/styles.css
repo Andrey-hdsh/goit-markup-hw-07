@@ -373,11 +373,8 @@ border-top: none;
 
 .footer{
     background: var(--color-footer);
-    /* padding-top: 100px;
-    padding-bottom: 100px; */
     padding-top: 96px;
     padding-bottom: 96px;
-    display: flex;
 }
 
 .footer-text{
@@ -489,6 +486,14 @@ overflow: hidden ;
     gap: 24px; */
 }
 
+.advantages-item{
+margin-bottom: 72px;
+}
+
+.advantages-item:last-child{
+margin-bottom: 0;
+}
+
 .advantages-box{
 /* display: flex; */
 display: none;
@@ -526,7 +531,7 @@ font-weight: 500 ;
 line-height: 1.5;
 letter-spacing: 0.02em;
 color: var(--color-advantages-text);
-margin-bottom: 72px;
+/* margin-bottom: 72px; */
 }
 
     li:last-child .advantages-text{
@@ -675,11 +680,6 @@ padding-bottom: 96px;
 display: flex;
 flex-wrap: wrap;
 justify-content: center;
-/* flex-wrap: wrap;
-align-items: center;
-justify-content: center; */
-/* gap: 24px; */
-/* gap: 16px; */
 row-gap: 72px;
 column-gap: 16px;
 
@@ -716,15 +716,14 @@ fill: currentColor;
 }
 
 .footer-logo-block{
-/* margin-right: 120px; */
 display: flex;
 margin: 0 auto;
 width: 268px;
 flex-wrap: wrap;
+margin-bottom: 72px;
 }
 
 .footer-container{
-/* display: flex; */
 align-items: baseline;
 
 }
@@ -747,7 +746,12 @@ margin:  0 auto;
 }
 
 
+.footer-soc-block{
+}
 
+.footer-upper{
+    margin-bottom: 72px;
+    }
 
 .footer-soc-text {
 font-weight: 500;
@@ -758,7 +762,6 @@ color: var(--footer-soc-text);
 margin-bottom: 16px;
 
 text-align: center;
-margin-top: 72px;
 
 }
 .ftr-soc-list {
@@ -814,7 +817,6 @@ background: #31D0AA;
     margin-bottom: 16px;
 
     text-align: center;
-    margin-top: 72px;
     }
     
     .subscription-form {
